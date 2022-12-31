@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "outDir": "dist",
+    "target": "es2015",
+    "moduleResolution": "node",
+    "removeComments": true,
+    "skipLibCheck": true,
+    "jsx": "react",
+    "declaration": false,
+    "baseUrl": ".",
+    "paths": {
+      "components/*": ["./src/components/*"],
+      "static/*": ["./static/*"]
+    }
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "app/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

@@ -1,1 +1,3 @@
-# helyca-ts
+# Helyca RPG
+
+It's a secret :)
