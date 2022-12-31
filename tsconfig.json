@@ -11,6 +11,8 @@
     "baseUrl": ".",
     "paths": {
       "components/*": ["./src/components/*"],
+      "contexts/*": ["./src/contexts/*"],
+      "scenes": ["./src/scenes"],
       "static/*": ["./static/*"]
     }
   },
